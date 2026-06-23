@@ -70,7 +70,7 @@ const products = [
     originalPrice: 72,
     rating: 4.6,
     reviewCount: 302,
-    image: "https://assets.bonappetit.com/photos/61ba2e81510874520d257b6c/16:9/w_2560%2Cc_limit/20211214%2520Wellness%2520Products%2520We%2520Loved%2520That%2520You%2520Loved%2520LEDE.jpg",
+    image: "https://titoaistorageaccount.blob.core.windows.net/titoai-storage/assets/65ee8db8-3d2e-4d81-b718-fea6084c292c/ae1dcf0b93c141b5aeb1b8896d08febf.png",
     badge: "Sale" as const,
     description: "Ultrasonic diffuser with 12-hour run time.",
   },
@@ -116,7 +116,7 @@ const testimonials = [
     location: "Copenhagen",
     avatar: "https://www.ageist.com/wp-content/uploads/2024/05/IMG_5448-683x1024.jpg",
     rating: 5,
-    text: "The quality of every piece I've ordered has been exceptional. The ceramic pour-over set is a daily ritual now.",
+    text: "The quality of every piece I've ordered has been exceptional. The ceramic pour-over.",
   },
   {
     id: 2,
@@ -855,7 +855,7 @@ export default function HomePage() {
                 <div className="flex flex-col gap-4 mt-10">
                   <div className="rounded-2xl overflow-hidden aspect-square shadow-[0_4px_8px_rgba(0,0,0,0.06),0_20px_40px_-12px_rgba(0,0,0,0.14)] border border-black/5">
                     <img
-                      src="https://assets.bonappetit.com/photos/61ba2e81510874520d257b6c/16:9/w_2560%2Cc_limit/20211214%2520Wellness%2520Products%2520We%2520Loved%2520That%2520You%2520Loved%2520LEDE.jpg"
+                      src="https://titoaistorageaccount.blob.core.windows.net/titoai-storage/assets/65ee8db8-3d2e-4d81-b718-fea6084c292c/ae1dcf0b93c141b5aeb1b8896d08febf.png"
                       alt="Wellness products"
                       className="w-full h-full object-cover"
                     />
