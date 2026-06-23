@@ -259,6 +259,7 @@ function ProductCard({ product }: { product: typeof products[0] }) {
             <Heart
               size={14}
               className={wished ? "fill-rose-500 text-rose-500" : "text-slate-400"}
+            style={{ color: "#00000a" }}
             />
           </motion.button>
         </div>
