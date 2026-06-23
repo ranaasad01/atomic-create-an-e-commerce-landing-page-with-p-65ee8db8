@@ -351,7 +351,7 @@ export default function HomePage() {
             <motion.p
               variants={fadeInUp}
               className="text-lg text-slate-500 leading-relaxed max-w-md text-pretty"
-            style={{ color: "#1870ec" }}
+            style={{ color: "#010619" }}
             >
               Lumière curates home goods, accessories, and wellness products
               designed to last. No fast fashion, no throwaway pieces. Just
