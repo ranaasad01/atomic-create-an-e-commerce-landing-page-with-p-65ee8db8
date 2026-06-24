@@ -797,6 +797,7 @@ export default function HomePage() {
                   className={`text-sm leading-relaxed mb-6 ${
                     i === 1 ? "text-indigo-100" : "text-slate-600"
                   }`}
+                style={{ color: "#000b19" }}
                 >
                   {t.text}
                 </p>
