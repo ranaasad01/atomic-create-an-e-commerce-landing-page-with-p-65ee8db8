@@ -755,9 +755,7 @@ export default function HomePage() {
                     <Star key={i} size={14} className="fill-amber-400 text-amber-400" />
                   ))}
                 </div>
-                <p className={`text-slate-700 leading-relaxed text-sm${
-                  t.name === "Mara Jensen" ? " text-green-600" : ""
-                }`}>
+                <p className="text-slate-700 leading-relaxed text-sm">
                   &ldquo;{t.text}&rdquo;
                 </p>
                 <div className="flex items-center gap-3 mt-auto">
@@ -807,7 +805,7 @@ export default function HomePage() {
                 animate={{ scale: 1, opacity: 1 }}
                 className="inline-flex items-center gap-2 bg-emerald-500/20 text-emerald-400 border border-emerald-500/30 px-6 py-3 rounded-xl font-medium"
               >
-                <Check size={18} /> You're subscribed!
+                <Check size={18} /> You&apos;re subscribed!
               </motion.div>
             ) : (
               <motion.form
