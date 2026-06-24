@@ -124,7 +124,7 @@ const testimonials = [
     location: "Portland",
     avatar: "https://i.scdn.co/image/ab67616d00001e0269e7e306e623b22f1aad772d",
     rating: 5,
-    text: "Lumière has completely changed how I think about my home. Thoughtful design at a price that doesn't feel punishing.",
+    text: "Lumière has completely changed how I think about my home. Thoughtful design at a price that",
   },
   {
     id: 3,
@@ -685,9 +685,7 @@ export default function HomePage() {
               whileInView="visible"
               viewport={{ once: true, margin: "-80px" }}
             >
-              <span className="inline-block bg-white/15 border border-white/20 text-white text-xs font-semibold px-3 py-1.5 rounded-full mb-5">
-                Limited time
-              </span>
+              <span className="inline-block bg-white/15 border border-white/20 text-white text-xs font-semibold px-3 py-1.5 rounded-full mb-5">Our seasonal sale is live. Discover reduced prices on home goods, apparel, and accessories</span>
               <h2 className="font-playfair text-4xl md:text-5xl font-bold text-white tracking-tight leading-tight mb-4">
                 Up to 30% off
                 <br />
